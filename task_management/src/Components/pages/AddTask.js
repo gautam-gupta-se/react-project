@@ -9,21 +9,21 @@ const AddTask = () => {
                     <div class="col-md-9 register-right">
                         
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="tab-pane fade show active"s>
                                 <h3 class="register-heading">Apply as a Employee</h3>
                                 <div class="row register-form">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Task Name *" value="" />
+                                            <input type="text" class="form-control" placeholder="Task Name *" name="tast_name" />
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Task assignee Name *" value="" />
+                                            <input type="text" class="form-control" placeholder="Task assignee Name *" name="assingee_name"  />
                                         </div>
                                         <div class="form-group">
-                                            <input type="date" class="form-control" placeholder="Assined Date *" value="" />
+                                            <input type="date" class="form-control" placeholder="Assined Date *" name="date1"  />
                                         </div>
                                         <div class="form-group">
-                                            <input type="date" class="form-control"  placeholder="Dead line *" value="" />
+                                            <input type="date" class="form-control"  placeholder="Dead line *" name="lastdate"  />
                                         </div>
                                         <div class="form-group">
                                             <div class="maxl">
@@ -40,10 +40,10 @@ const AddTask = () => {
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                                            <input type="email" class="form-control" placeholder="Your Email *" name="email"  />
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *"  />
                                         </div>
                                         <div class="form-group">
                                             <select class="form-control">
@@ -54,7 +54,7 @@ const AddTask = () => {
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
+                                            <input type="text" class="form-control" placeholder="Enter Your Answer *" name="anss" />
                                         </div>
                                         <input type="submit" class="btnRegister"  value="click to submit"/>
                                     </div>
